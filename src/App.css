@@ -1,38 +1,71 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+html {
+  height: 100%;
+  margin: 0;
+}
+.spinner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner-top {
+  margin-top: 100px;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box-back{
+  background-color: rgba(0,0,0,.7);
+  max-width: 800px;
+  border-radius: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button{
+  margin: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sanantonio{
+  background-color: black;
+  background-image: url("https://ticket.gruposenda.com/images/Blog/201803/san_antonio/River-Walk.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.App-link {
-  color: #61dafb;
+.sanfransisco{
+  background-color: black;
+  background-image: url("https://image.cnbcfm.com/api/v1/image/105284147-GettyImages-673632588.jpg?v=1557935343&w=1400&h=950");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.current{
+  background-color: black;
+  background-image: url("https://www.citypassguide.com/media/slideshow/travel-saigon-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App {
+  height: 100%;
+  padding: 100px;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+}
+
+li{
+  padding: 10px;
 }
